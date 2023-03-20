@@ -1,0 +1,212 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #DCDFE4;
+    width: 1500px;
+    height: 2010px;
+    border: 5px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+header {
+    display: flex;
+    position: relative;
+    color: #00171F;
+    background-color: #3581B8;
+    border: 5px solid black;
+}
+
+.menuUL {
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+    margin-top: 85px;
+}
+
+
+img {
+    position: relative;
+    left: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.headerName {
+    position: relative;
+    left: 400px;
+    top: 35px;
+    text-align: left;
+    font-size: x-large;
+}
+
+.sideBoxContacts {
+    position: relative;
+    border: 2px solid black;
+    width: 500px;
+    height: 400px;
+}
+
+.contacts {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.sideBoxLanguage {
+    border: 2px solid black;
+    width: 500px;
+    height: 400px;
+}
+
+.language {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.sideBoxEducation {
+    border: 2px solid black;
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
+
+#education {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.eduName {
+    margin-left: 15px;
+}
+
+.eduDate {
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+}
+
+.sideBoxInterests {
+    border: 2px solid black;
+    width: 500px;
+    height: 520px;
+}
+
+.interests {
+    text-align: center;
+}
+
+
+article {
+    display: flex;
+    position: relative;
+}
+
+#profile {
+    border-bottom: 2px solid black;
+    width: 920px;
+    height: 520px;
+    margin-left: 50px;
+    font-size: xx-large;
+}
+
+.profileMain {
+    font-size: xx-large;
+}
+
+#experience {
+    border-bottom: 2px solid black;
+    width: 920px;
+    height: 520px;
+    margin-left: 50px;
+    font-size: x-large;
+}
+
+#skills {
+    width: 920px;
+    height: 520px;
+    margin-left: 50px;
+    font-size: x-large;
+}
+
+.skillName {
+    margin: auto;
+    display: block;
+}
+
+.skillValue {
+    right: 0;
+    margin-right: 200px;
+    display: inline-block;
+
+}
+
+.contactMe {
+    margin-left: 14px;
+}
+
+input {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}
+
+.contactText {
+    text-align: center;
+}
+
+textarea {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.areaText {
+    margin-left: 14px;
+}
+
+footer {
+    position: fixed;
+    right: 0;
+    top: 0;
+    border: 2px solid black;
+    height: 250px;
+    width: 250px;
+}
+
+.contactMeMain {
+    width: 350px;
+    height: 700px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.contactName {
+    margin-bottom: 12px;
+    margin-left: 10px;
+}
+
+.contactCompany {
+    margin-bottom: 12px;
+    margin-left: 10px;
+}
+
+.contactEmail {
+    margin-bottom: 12px;
+    margin-left: 10px;
+}
+
+.contactExtra {}
+
+.areaSize {
+    width: 325px;
+    height: 250px;
+    margin-top: 30px;
+}
+
+.submitButton {
+    position: relative;
+    top: 350px;
+    left: 125px;
+    width: 100px;
+    height: 25px;
+}
