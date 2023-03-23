@@ -1,0 +1,107 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    position: relative;
+    padding: 0
+}
+
+.topMenu {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topMenu a {
+    text-decoration: none;
+    float: left;
+    color: #f2f2f2;
+    padding: 15px 15px;
+    font-size: 17px;
+}
+
+.topMenu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topMenu a.topMenuHome {
+    background-color: rgb(77, 77, 182);
+    color: white;
+}
+
+.profileDefault {
+    border-radius: 50%;
+    width: 450px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 20px 20px;
+}
+
+.heroBanner {
+    display: flex;
+    background-image: url(../../images/resume_7-2_hero.jpg)
+}
+
+.heroBannerTitle {
+    position: relative;
+    top: 150px;
+    left: 20px;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.mainProfile {
+    text-align: center;
+    padding: 30px 100px;
+    border-top: 3px solid black;
+}
+
+.mainSkills {
+    height: 300px;
+    padding: 10px 10px;
+    display: flex;
+    position: relative;
+}
+
+.mskills {
+    position: relative;
+    font-size: 25px;
+    padding: 10px 10px;
+    text-align: center;
+    flex-grow: 1;
+    border: 3px solid black;
+}
+
+.skillName {
+    position: absolute;
+    left: 50px;
+}
+
+progress {
+    position: absolute;
+    right: 50px;
+}
+
+.mlanguage {
+    text-align: center;
+    flex-grow: 1;
+    border: 3px solid black;
+}
+
+.minterests {
+    padding: 10px 10px;
+    text-align: center;
+    flex-grow: 1;
+    border: 3px solid black;
+}
+
+.mainExperience {
+    padding: 30px 30px;
+}
+
+.interestGym {}
+
+.interestCook {}
+
+.interestGame {}
